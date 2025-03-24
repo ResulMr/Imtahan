@@ -1,4 +1,4 @@
-function countOccurrences(arr, num) {
+function hesab(arr, num) {
     let count = 0;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === num) {
@@ -11,4 +11,4 @@ function countOccurrences(arr, num) {
        
 let arr = [3, 4, 5, 3, 1, 3, 3];
 let number = 3;
-console.log(`${number} ədədi array-da ${countOccurrences(arr, number)} dəfə təkrarlanır.`);
+console.log(`${number} ədədi array-da ${hesab(arr, number)} dəfə təkrarlanır.`);
